@@ -1,6 +1,6 @@
 # H₂ Hamiltonian From Scratch
 
-An educational quantum-chemistry project that shows **where the Hamiltonian used by VQE actually comes from**.
+A quantum-chemistry project that shows **where the Hamiltonian used by VQE actually comes from**.
 
 The goal is not to hide the chemistry behind `Qiskit Nature` or `PySCF`. The code explicitly constructs the minimal-basis H₂ Hamiltonian from Gaussian integrals, solves restricted Hartree–Fock, converts the result to second quantization, builds the fermionic Fock-space Hamiltonian, and decomposes it into Pauli strings.
 
